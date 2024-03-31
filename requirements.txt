@@ -1,4 +1,13 @@
-
+asgiref
+autopep8
+Django
+django-autoslug
+django-cleanup
+django-cors-headers
+django-dirtyfields
+django-filter
+django-phonenumber-field
+django-phonenumbers
 django-silk
 django-versatileimagefield
 djangorestframework

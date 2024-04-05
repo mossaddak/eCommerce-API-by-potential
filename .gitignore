@@ -64,3 +64,14 @@ cython_debug/
 .idea/
 .vscode
 .vscode/
+
+# Media related
+MEDIA
+Media
+media
+.MEDIA
+.Media
+.media
+
+# Database
+db.sqlite3

@@ -1,3 +1,9 @@
+.idea
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Additional files and directories to ignore
 logs/
 cache/
@@ -65,13 +71,5 @@ cython_debug/
 .vscode
 .vscode/
 
-# Media related
-MEDIA
-Media
-media
-.MEDIA
-.Media
-.media
-
-# Database
+# Data base
 db.sqlite3

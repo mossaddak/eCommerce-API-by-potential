@@ -21,13 +21,3 @@ jobs:
     - name: Run Django tests
       run: |
         python ecommerce/manage.py test
-
-  request_review:
-    runs-on: ubuntu-22.04
-    needs: test_project
-    steps:
-      - name: Request Reviewers
-        uses: actions/request-reviewer@v2
-        with:
-          reviewers: 'mossaddak'
-          number-of-reviewers: 1
